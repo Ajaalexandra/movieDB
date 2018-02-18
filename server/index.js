@@ -7,7 +7,7 @@ const { apiURL, apiKey } = require("../config");
 const app = express();
 const port = 3001;
 
-//Middlewares
+//Middlewares!
 app.use(cors());
 app.use(json());
 
